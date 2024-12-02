@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Bancario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</body>
+    <h1>Sistema Bancario</h1>
+    <h1>Iniciar usuario:</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="contrato">Num contrato:</label>
+        <input type="number" id="contrato" name="contrato">
+        </form>
+        
+        <button onclick="iniciarUsuario()">Iniciar Sesión</button>
+    <form>
+        <label for="precio">Precio nuevo:</label>
+        <input type="number" id="precio" name="precio">
+    </form>
+    <button onclick="cambiarPrecio()">Cambiar Precio</button>
+
+    <form>
+        <label for="CamPlan">Plan nuevo:</label>
+        <input type="text" id="nplan" name="plan">
+    </form>
+    <button onclick="cambiarPlan()">Cambiar Plan</button>
+
+    <form>
+        <label for="infor">Mostrar informacion:</label>
+    </form>
+    <button onclick="cambiarPlan()">Mostrar Información</button>
+
+    <h3 id = "info"></h3>
+
+    <div class="contenedor"></div>
+        <h1>Nombre: <span id="mostrarNombre"></span></h1>
+        <h1>Contrato: <span id="mostrarContrato"></span></h1>
+        <h1>Precio: <span id="mostrarPrecio"></span></h1>
+        <h1>Plan: <span id="mostrarPlan"></span></h1>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
